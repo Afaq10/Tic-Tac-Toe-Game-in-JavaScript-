@@ -47,20 +47,72 @@ body {
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-    font-size: 8vmin;
+    font-size: 10vmin;
+    font-family: 'Poppins', sans-serif;
     color: #222;
     background-color: #FFD166;
 }
 
+.box:hover {
+    cursor: pointer;
+}
+
 #reset-btn {
     padding: 1rem;
-    width: 58vmin;
+    width: 59vmin;
     font-size: 1.25rem;
+    font-weight: 500;
     background-color: #EF476F;
     color: #FCFCFC;
     border-radius: 0.8rem;
-    border: none;
+    border: 2px solid #EF476F;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+#reset-btn:hover {
+    background-color: #FCFCFC;
+    color: #EF476F;
+    border-color: #EF476F;
+    cursor: pointer;
+}
+
+.msg-container {
+    padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background-color: #62f40c;
+    border-radius: 0.8rem;
+}
+
+#msg{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    padding-bottom: 2rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #FCFCFC;
+    margin-top: 20px;
+}
+
+a {
+    color: #FFD166;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EF476F;
 }
 
 
